@@ -44,7 +44,7 @@
   --ink:#F1ECE2; --muted:#ABA393;
   --acc:#C8A15A; --acc-deep:#B48C45; --on-acc:#121110; --acc-text:#D0AB64;
   --led:#E8CF97; --glow:rgba(200,161,90,.5);
-  --band:#1F3A2E; --band-ink:#F1ECE2; --band-line:rgba(241,236,226,.28); --band-honey:rgba(241,236,226,.07);
+  --band:#16264A; --band-ink:#F1ECE2; --band-line:rgba(241,236,226,.28); --band-honey:rgba(241,236,226,.07);
   --paper:#EFE9DD; --paper-card:#F8F4EC; --paper-ink:#17150F; --paper-muted:#5B5345; --paper-line:#D3C9B6; --paper-acc:#77571B; --paper-focus:#17150F;
   --honey:rgba(200,161,90,.16);
   --focus:#F1ECE2;
@@ -54,9 +54,9 @@
   --stage-acc:#C8A15A; --stage-acc-deep:#B48C45; --stage-on-acc:#121110;
   --stage-led:#FFF1D6; --stage-glow:rgba(255,196,110,.7);
   
-  --sw-messing-a:#C8A15A;--sw-messing-b:#1F3A2E;--sw-messing-c:#121110;
-  --sw-gruen-a:#8DBB9A;--sw-gruen-b:#2B2417;--sw-gruen-c:#121110;
-  --sw-kupfer-a:#D29467;--sw-kupfer-b:#1E2F2A;--sw-kupfer-c:#121110;
+  --sw-messing-a:#C8A15A;--sw-messing-b:#16264A;--sw-messing-c:#121110;
+  --sw-gruen-a:#8FB0DD;--sw-gruen-b:#1A2742;--sw-gruen-c:#121110;
+  --sw-kupfer-a:#D29467;--sw-kupfer-b:#14223F;--sw-kupfer-c:#121110;
   --sw-sw-a:#ECEEEF;--sw-sw-b:#8D8D93;--sw-sw-c:#111112;
 }
 :root[data-farbe="light"]{
@@ -65,7 +65,7 @@
   --ink:#16140F; --muted:#574F42;
   --acc:#8A6626; --acc-deep:#74541C; --on-acc:#FFFFFF; --acc-text:#6E5018;
   --led:#8A6626; --glow:rgba(138,102,38,.28);
-  --band:#1F3A2E; --band-ink:#F1ECE2; --band-line:rgba(241,236,226,.28);
+  --band:#16264A; --band-ink:#F1ECE2; --band-line:rgba(241,236,226,.28);
   --paper:#1C1A16; --paper-card:#25221D; --paper-ink:#F1ECE2; --paper-muted:#B2AA9A; --paper-line:#3D3830; --paper-acc:#D3AE68; --paper-focus:#F1ECE2;
   --honey:rgba(138,102,38,.16);
   --focus:#16140F;
@@ -81,25 +81,25 @@
 }
 
 :root[data-gamma="gruen"]{
-  --stage-acc:#8DBB9A;--stage-acc-deep:#77A685;--stage-on-acc:#101612;--stage-led:#E4F6EA;--stage-glow:rgba(150,220,175,.6);
-  --band:#2B2417;
+  --stage-acc:#8FB0DD;--stage-acc-deep:#7898C6;--stage-on-acc:#0F1420;--stage-led:#E4EEFA;--stage-glow:rgba(150,185,235,.6);
+  --band:#1A2742;
 }
 :root[data-gamma="gruen"]:not([data-farbe="light"]){
-  --bg:#111312;--bg2:#171A18;--raised:#1F2420;--line:#353D37;--ink:#ECF0EC;--muted:#A0AAA2;
-  --acc:#8DBB9A;--acc-deep:#77A685;--on-acc:#101612;--acc-text:#9CC6A8;--led:#BFE0C8;--glow:rgba(141,187,154,.45);
-  --paper:#E7EEE8;--paper-card:#F4F8F5;--paper-ink:#0F1712;--paper-muted:#48564C;--paper-line:#C4D2C8;--paper-acc:#2C5B40;--paper-focus:#0F1712;
-  --honey:rgba(141,187,154,.14);--focus:#ECF0EC;
+  --bg:#111418;--bg2:#171B20;--raised:#1F252D;--line:#353C47;--ink:#ECF0F5;--muted:#A0A9B5;
+  --acc:#8FB0DD;--acc-deep:#7898C6;--on-acc:#0F1420;--acc-text:#A3BFE6;--led:#C4D6F0;--glow:rgba(143,176,221,.45);
+  --paper:#E7ECF4;--paper-card:#F4F7FB;--paper-ink:#0F1520;--paper-muted:#485264;--paper-line:#C4CEDC;--paper-acc:#2C4B7A;--paper-focus:#0F1520;
+  --honey:rgba(143,176,221,.14);--focus:#ECF0F5;
 }
 :root[data-gamma="gruen"][data-farbe="light"]{
-  --bg:#EEF1EE;--bg2:#E3E8E4;--raised:#FFFFFF;--line:#C2CCC5;--ink:#101612;--muted:#4A564E;
-  --acc:#2E5E43;--acc-deep:#244B35;--on-acc:#FFFFFF;--acc-text:#2B593F;--led:#2E5E43;--glow:rgba(46,94,67,.25);
-  --paper:#13201A;--paper-card:#1A2A22;--paper-ink:#E6EFE9;--paper-muted:#A3B5A9;--paper-line:#2F4238;--paper-acc:#8DBB9A;--paper-focus:#E6EFE9;
-  --honey:rgba(46,94,67,.14);--focus:#101612;
+  --bg:#EEF1F6;--bg2:#E3E8F0;--raised:#FFFFFF;--line:#C2CAD8;--ink:#0F1420;--muted:#4A5264;
+  --acc:#2E4E7E;--acc-deep:#243E66;--on-acc:#FFFFFF;--acc-text:#2B4A78;--led:#2E4E7E;--glow:rgba(46,78,126,.25);
+  --paper:#131A28;--paper-card:#1A2236;--paper-ink:#E6ECF5;--paper-muted:#A3B0C5;--paper-line:#2F3A52;--paper-acc:#8FB0DD;--paper-focus:#E6ECF5;
+  --honey:rgba(46,78,126,.14);--focus:#0F1420;
 }
 
 :root[data-gamma="kupfer"]{
   --stage-acc:#D29467;--stage-acc-deep:#BE7F52;--stage-on-acc:#140E0B;--stage-led:#FFE9D9;--stage-glow:rgba(240,165,115,.6);
-  --band:#1E2F2A;
+  --band:#14223F;
 }
 :root[data-gamma="kupfer"]:not([data-farbe="light"]){
   --bg:#13100F;--bg2:#1A1614;--raised:#241E1B;--line:#3E3430;--ink:#F3ECE6;--muted:#ADA097;
@@ -1033,6 +1033,13 @@ a:focus-visible,button:focus-visible,[role=button]:focus-visible,[tabindex]:focu
 .lb-f{clip-path:inset(0 round 22px)!important}.lb-f img{clip-path:inset(0 round 19px)!important}
 .tk-f::before{border-radius:12px}
 @media (max-width:359px){.cta .btn{font-size:14px;padding-left:13px;padding-right:13px;gap:6px}.cta .btn svg{width:16px;height:16px}}
+</style>
+<style>
+/* 24.11 (Julia ueber Holly): Menue am Handy nicht abgeschnitten - zwei Zeilen statt seitlich scrollen */
+@media (max-width:560px){
+  .nav{flex-wrap:wrap;justify-content:center;column-gap:22px;row-gap:0;height:auto;padding-top:4px;padding-bottom:4px;overflow:visible;-webkit-mask-image:none !important;mask-image:none !important}
+  .nav a{height:36px}
+}
 </style>
 </head>
 <body>

@@ -1024,6 +1024,10 @@ a:focus-visible,button:focus-visible,[role=button]:focus-visible,[tabindex]:focu
 }
 .tk-turn:focus-visible{outline:2px solid #D9B567;outline-offset:3px}
 @media (prefers-reduced-motion:reduce){.tk-in{transition:none}}
+
+html .name .one{filter:drop-shadow(0 0 6px var(--stage-glow)) drop-shadow(0 0 14px var(--stage-glow)) drop-shadow(0 2px 4px rgba(0,0,0,.7)) drop-shadow(0 6px 18px rgba(0,0,0,.55))}
+
+html .strip-x{overflow-y:hidden!important;padding-top:10px!important;padding-bottom:14px!important;overscroll-behavior-y:auto}
 .fict{margin:14px 0 0;text-align:center;font-size:13px;color:var(--muted)}
 .btn::before,.btn::after{clip-path:inset(0 round 999px)!important}
 .btn::after{clip-path:inset(0 round 999px)!important}
@@ -1126,23 +1130,23 @@ a:focus-visible,button:focus-visible,[role=button]:focus-visible,[tabindex]:focu
       <div class="boards">
         <article class="board r" aria-labelledby="h-g1">
           <h3 id="h-g1">Haarschnitte <svg viewBox="0 0 100 112" aria-hidden="true" focusable="false"><path d="M50 8 A48 48 0 1 1 49.99 8 Z"/></svg></h3>
-          <div class="feat"><span class="lbl">Herrenhaarschnitt</span><span class="big"><small>CHF</small><b>25.–</b></span></div>
+          <div class="feat"><span class="lbl">Haarschnitt</span><span class="big"><small>CHF</small><b>38.–</b></span></div>
           <ul class="menu">
-            <li style="--i:1"><span><span class="lw">Haarschnitt </span><span class="sw2">Kinder bis 12&nbsp;J.</span><span class="lw">Kinder bis 12 Jahre</span></span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>15.–</span></li>
-            <li style="--i:2"><span><span class="lw">Haarschnitt </span><span class="sw2">Jugendliche bis 16&nbsp;J.</span><span class="lw">Jugendliche bis 16 Jahre</span></span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>20.–</span></li>
-            <li style="--i:3"><span>Haarschnitt &amp; Waschen</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>30.–</span></li>
-            <li style="--i:4"><span>Föhnen</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>10.–</span></li>
-            <li style="--i:5"><span>Bartschnitt</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>15.–</span></li>
-            <li style="--i:6"><span>Augenbrauen zupfen</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>10.–</span></li>
+            <li style="--i:1"><span>Fade &amp; Styling</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>42.–</span></li>
+            <li style="--i:2"><span>Maschinenschnitt</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>28.–</span></li>
+            <li style="--i:3"><span>Kinder bis 10&nbsp;J.</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>22.–</span></li>
+            <li style="--i:4"><span>Schüler &amp; Studenten</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>32.–</span></li>
+            <li style="--i:5"><span>Bart trimmen</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>24.–</span></li>
+            <li style="--i:6"><span>Nassrasur mit heissem Tuch</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>35.–</span></li>
           </ul>
         </article>
         <div class="side">
           <article class="board r" aria-labelledby="h-g2" style="--d:.12s">
-            <h3 id="h-g2">Pflege &amp; Farbe <svg viewBox="0 0 100 112" aria-hidden="true" focusable="false"><path d="M50 8 A48 48 0 1 1 49.99 8 Z"/></svg></h3>
+            <h3 id="h-g2">Bart &amp; Pflege <svg viewBox="0 0 100 112" aria-hidden="true" focusable="false"><path d="M50 8 A48 48 0 1 1 49.99 8 Z"/></svg></h3>
             <ul class="menu">
-              <li style="--i:1"><span>Black Mask</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>10.–</span></li>
-              <li style="--i:2"><span>Bart färben</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>20.–</span></li>
-              <li style="--i:3"><span>Haare färben</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>20.–</span></li>
+              <li style="--i:1"><span>Haarschnitt + Bart</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>55.–</span></li>
+              <li style="--i:2"><span>Konturen nachziehen</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>12.–</span></li>
+              <li style="--i:3"><span>Gesichtsmaske</span><span class="lead" aria-hidden="true"></span><span class="pr"><small>CHF</small>18.–</span></li>
             </ul>
           </article>
           <div class="ask r" style="--d:.2s">
@@ -1224,16 +1228,7 @@ a:focus-visible,button:focus-visible,[role=button]:focus-visible,[tabindex]:focu
   <section class="contact" id="kontakt" aria-labelledby="h-kon">
     <div class="wrap">
       <h2 class="h2 r" id="h-kon">Kontakt &amp; Standort</h2>
-      <div class="tk r">
-        <div class="tk-in">
-          <div class="tk-f" aria-label="Vorderseite der Terminkarte">
-            <span class="tk-glint" aria-hidden="true"></span>
-            <svg class="tk-logo" viewBox="0 0 100 112" aria-hidden="true" focusable="false"><path class="hx" d="M50 8 A48 48 0 1 1 49.99 8 Z"/><path class="cr" d="M28 40 H72 V47 H28 Z M22 53 H78 V60 H22 Z M28 66 H72 V73 H28 Z"/></svg>
-            <p class="tk-name"><small>Barbershop</small><b>Linea 9</b></p>
-            <p class="tk-kind">Terminkarte · Uzwil</p>
-            <button type="button" class="tk-turn tk-turn-f">Karte umdrehen <span aria-hidden="true">↻</span></button>
-          </div>
-<div class="card tk-b" aria-label="Rückseite der Terminkarte">
+      <div class="card r">
         <span class="honey" aria-hidden="true"></span>
         <div class="c-main">
           <a class="tel" href="tel:+41710000000">071 000 00 00</a>
@@ -1249,8 +1244,6 @@ a:focus-visible,button:focus-visible,[role=button]:focus-visible,[tabindex]:focu
           <div><dt>WhatsApp</dt><dd><a href="https://wa.me/41790000000?text=Gr%C3%BCezi%2C%20ich%20m%C3%B6chte%20gerne%20einen%20Termin." rel="noopener">079 000 00 00</a></dd></div>
           <div><dt>E-Mail</dt><dd><a href="mailto:hallo@linea9.example">hallo@linea9.example</a></dd></div>
         </dl>
-        <button type="button" class="tk-turn tk-turn-b" aria-label="Karte umdrehen: Vorderseite zeigen">↻</button>
-        </div>
       </div>
     </div>
   </section>
